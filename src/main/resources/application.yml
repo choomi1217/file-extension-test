@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: MadrasCheck
+  jpa:
+    database: postgresql
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+  datasource:
+    username: postgres
+    password: test
+    url: jdbc:postgresql://localhost:5432/madras
